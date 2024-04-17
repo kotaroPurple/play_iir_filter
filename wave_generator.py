@@ -23,8 +23,3 @@ def generate_wave(
         else:
             data += one_wave.amplitude * np.cos(2 * np.pi * one_wave.frequency * times)
     return data, times
-
-# # テスト用の信号生成
-# fs = 1000  # サンプリング周波数
-# t = np.linspace(0, 1, fs, endpoint=False)
-# data = np.sin(2 * np.pi * 5 * t) + np.sin(2 * np.pi * 50 * t)

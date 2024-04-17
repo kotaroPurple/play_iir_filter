@@ -7,7 +7,7 @@ from wave_generator import generate_wave
 from wave_generator import WaveOption
 from iir_filter import apply_filter
 from iir_filter import apply_filter_with_chunk
-from iir_filter import apply_filter_simple
+# from iir_filter import apply_filter_simple
 from iir_filter import generate_lowpass_filter
 
 

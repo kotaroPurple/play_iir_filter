@@ -66,7 +66,7 @@ def _apply_short_filter(
     return filtered_data
 
 
-def apply_filter_simple(data: NDArray, filter_b: NDArray, filter_a: NDArray):
+def apply_filter_simple(data: NDArray, filter_b: NDArray, filter_a: NDArray) -> NDArray:
     filtered_data = np.zeros_like(data)
     nb = len(filter_b)
     na = len(filter_a)
